@@ -73,9 +73,26 @@ ul li:hover ul li{
 
     
 }
+/*
+Introduccion
+*/
 
 
-
+#contenido{
+    font-family: Arial;
+    font-size:20px;
+    padding: 0 15px 0  0;
+    width: 100%;
+    height:400px;
+    color: black;
+    background-color: white;
+}
+#h1{
+    font-family: arial;
+    font-size: 30px;
+    color: red;
+    text-align: center
+}
 
 
 
