@@ -3,16 +3,18 @@
     height: 350px;
 }
 */
-body{
+#cuerpo{
     background: url("ct_ecu.png")no-repeat;
+    opacity: .9;
     background-size: cover;
     font-family: Arial;
     color: white
 }
 ul{
     margin: 0px;
-    padding: 0px;
+    padding: 0 15px 0 0;
     list-style: none;
+    float:left;
 }
 ul li{
     float: left;
@@ -40,3 +42,47 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
+
+/*texto*/
+
+#texto{
+    font-family: Arial;
+    font-size: 20px;
+    color:white;
+    background-color: chocolate;
+    text-decoration: none;
+    border:3px black double;
+    float: right;
+    font-weight: bold;
+    width: 30%;
+    margin-right: 400px;
+   
+}
+
+#final{
+    font-family: Arial;
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
