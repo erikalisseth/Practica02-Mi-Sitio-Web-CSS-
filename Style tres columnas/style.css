@@ -1,12 +1,10 @@
-
 #cuerpo{
-    background: url("ct_gala.png")no-repeat;
+    background: url("ct_cue.png")no-repeat;
     opacity: .9;
     background-size: cover;
     font-family: Arial;
     color: white
 }
-
 /*Menu*/
 ul{
     margin: 0px;
@@ -40,20 +38,8 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
-.tamano{
-    width: 1600px;
-    height: 350px;
-    margin: 10px;
-    float: left;
-    text-align: center;
-}
-.imag{
-    width: 800px;
-    height: 800px;
-    float: right;
-    margin-right: 400px;
-    text-align: center;
-}
+
+
 #final{
     font-family: Arial;
     font-size: 14px;
@@ -67,23 +53,32 @@ ul li:hover ul li{
     text-align: center;
 
 }
-#contenido{
-        background-color:cadetblue;
-        width: 60%;
-        margin-right: 150px;
-        float: right;
-        height: 400px;
-        border:10px black dotted;
-        font-size: 20px
 
+#imag{
+
+    width: 1000px;
+    height: 1000px;
+    float: right;
+    margin-right: 400px;
+    text-align: center;
+}
+#contenido{
+    background-color:chocolate;
+    width: 50%;
+    margin-right: 600px;
+    float: right;
+    height: 400px;
+    border:10px black dotted;
+    font-size: 20px
 }
 
-#tabla{
-    text-align:center;
-    background-color: cadetblue;
-    font-family: arial;
-    font-size: 20px;
-    float: right ;
-    height: 200px;
-    margin-right: 100px;
+#lateral{
+    background-color: coral;
+    margin-left: 5000px;
+    width: 35%;
+    border: 10px black;
+    font-size: 20pX;
+    float: right;
+
+
 }
